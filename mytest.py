@@ -1,0 +1,1 @@
+print("学习 Python 语言特性，并通过 Python 进行算法编程以及开发")
