@@ -1,7 +1,4 @@
-from re import A
-
-
-def prime(m):
+def prime(m: int) -> bool:
     """判断 n 是否为素数
 
     Args:
@@ -18,7 +15,7 @@ def prime(m):
 a = int(input("请输入区间中的第一个数:"))
 b = int(input("请输入区间中的第二个数:"))
 
-list = []
+list: list[int] = []
 for i in range(a, b + 1):
     if prime(i):
         list.append(i)

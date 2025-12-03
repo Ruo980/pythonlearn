@@ -1,6 +1,6 @@
-list = []
-for i in range(1, 100):  # range 左闭右开
-    if(i%2==0):
-        list.append(i) # 对象方法
+even_numbers: list[int] = []
+for i in range(1, 100):
+    if i % 2 == 0:
+        even_numbers.append(i)
 
-print(list)
+print(even_numbers)
