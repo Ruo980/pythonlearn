@@ -1,1 +1,1 @@
-a = int(input("请输入一个正整数:"))
+a: int = int(input("请输入一个正整数:"))

@@ -1,4 +1,4 @@
-string = input("请输入字符串：")
+string: str = input("请输入字符串：")
 
 char = 0
 number = 0
